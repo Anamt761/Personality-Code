@@ -83,7 +83,7 @@ For **BERT embeddings** using sentence-transformers:
 d. Download NLTK resources
 - import nltk
 - from nltk.tokenize import word_tokenize
-- 
+  
 **3. Dataset (mbti_1.rar)**
 Google Colab: Upload the dataset manually or link it from Google Drive.
 
@@ -98,14 +98,9 @@ Google Colab: Upload the dataset manually or link it from Google Drive.
 - Transformers: For fine-tuning pre-trained models
 - Gensim: For Word2Vec and GloVe embeddings
 - sentence-transformers: For advanced BERT sentence embeddings
-
-- Embeddings Used
-- 
-Word2Vec: Pre-trained word vectors for semantic understanding.
-
-GloVe: Global Vectors for word representation.
-
-Sentence Embeddings: A transformer-based model for sentence embeddings using sentence-transformers.
+- Word2Vec: Pre-trained word vectors for semantic understanding.
+- GloVe: Global Vectors for word representation.
+- Sentence Embeddings: A transformer-based model for sentence embeddings using sentence-transformers.
 
 **5. Run the Notebook**
 Launch Notebook and open the Openness_Personality_Trait_NS.ipynb file
