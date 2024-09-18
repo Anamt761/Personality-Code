@@ -69,25 +69,21 @@ This command installs all the base libraries plus:
 
 For **Word2Vec embeddings**, load the pre-trained models:
 
-from gensim.models import Word2Vec, KeyedVectors
+- from gensim.models import Word2Vec, KeyedVectors
 
 For **GloVe embeddings**:
 
-from gensim.scripts.glove2word2vec import glove2word2vec
+- from gensim.scripts.glove2word2vec import glove2word2vec
 
 For **BERT embeddings** using sentence-transformers:
 
-from sentence_transformers import SentenceTransformer
-
-model = SentenceTransformer('bert-base-nli-mean-tokens')
+- from sentence_transformers import SentenceTransformer
+- model = SentenceTransformer('bert-base-nli-mean-tokens')
 
 d. Download NLTK resources
-
-import nltk
-
-from nltk.tokenize import word_tokenize
-
-
+- import nltk
+- from nltk.tokenize import word_tokenize
+- 
 **3. Dataset (mbti_1.rar)**
 Google Colab: Upload the dataset manually or link it from Google Drive.
 
