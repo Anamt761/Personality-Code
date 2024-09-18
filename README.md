@@ -49,19 +49,19 @@ b. Upload the Openness_Personality_Trait_NS.ipynb notebook or use the Colab link
 
 c. Install the required dependencies by adding this to a code cell at the start:
 
-**!pip install numpy spacy tqdm xgboost nltk emoji scikit-learn transformers tensorflow pandas
-**
+**!pip install numpy spacy tqdm xgboost nltk emoji scikit-learn transformers tensorflow pandas**
+
 d. Download NLTK resources
 
-import nltk
+- import nltk
 
-nltk.download('punkt')
+- nltk.download('punkt')
 
-nltk.download('averaged_perceptron_tagger')
+- nltk.download('averaged_perceptron_tagger')
 
-nltk.download('stopwords')
+- nltk.download('stopwords')
 
-nltk.download('wordnet')
+- nltk.download('wordnet')
 
 e. Run the notebook cells.
 
