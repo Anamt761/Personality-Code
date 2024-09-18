@@ -46,3 +46,5 @@ Here is brief analysis of how to run the scripts or notebooks, including data pr
 
 These steps ensure that the data is properly prepared, features are extracted, and appropriate models are trained and evaluated.
 
+**Results:**
+The highest performance was achieved using **Bidirectional LSTM (Bi-LSTM)** with **advanced sentence embeddings**, which predicted the Openness personality trait with an accuracy of **90.52%**. This demonstrates the effectiveness of deep learning models combined with advanced embeddings in capturing nuanced language features for personality trait prediction.
