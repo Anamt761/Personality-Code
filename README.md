@@ -68,7 +68,7 @@ e. Run the notebook cells.
 **3. Dataset (mbti_1.rar)**
 Google Colab: Upload the dataset manually or link it from Google Drive.
 
-**5. Key Libraries Used**
+**4. Key Libraries Used**
 
 - NumPy: For numerical computations
 - SpaCy: For NLP tasks
@@ -78,10 +78,10 @@ Google Colab: Upload the dataset manually or link it from Google Drive.
 - TensorFlow: For neural network models
 - Transformers: For fine-tuning pre-trained models
 
-**6. Run the Notebook**
+**5. Run the Notebook**
 Launch Notebook and open the Openness_Personality_Trait_NS.ipynb file
 
-**7. Training the Model**
+**6. Training the Model**
 The notebook allows you to train and evaluate various models such as SVM, XGBoost, Random Forest, and a neural network. Make sure you have a dataset to use for training and adjust the train_dataloader and val_dataloader sections accordingly.
 
 **Notes**
