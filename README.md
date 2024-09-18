@@ -49,21 +49,44 @@ b. Upload the Openness_Personality_Trait_NS.ipynb notebook or use the Colab link
 
 c. Install the required dependencies by adding this to a code cell at the start:
 
-**!pip install numpy spacy tqdm xgboost nltk emoji scikit-learn transformers tensorflow pandas**
+- !pip install numpy
+- !pip install spacy
+- !pip install tqdm
+- !pip install xgboost
+- !pip install nltk
+- !pip install emoji
+- !pip install scikit-learn
+- !pip install transformers
+- !pip install tensorflow
+- !pip install pandas
+- !pip install gensim
+- !pip install sentence-transformers
+
+
+
+This command installs all the base libraries plus:
+
+
+For **Word2Vec embeddings**, load the pre-trained models:
+
+from gensim.models import Word2Vec, KeyedVectors
+
+For **GloVe embeddings**:
+
+from gensim.scripts.glove2word2vec import glove2word2vec
+
+For **BERT embeddings** using sentence-transformers:
+
+from sentence_transformers import SentenceTransformer
+
+model = SentenceTransformer('bert-base-nli-mean-tokens')
 
 d. Download NLTK resources
 
-- import nltk
+import nltk
 
-- nltk.download('punkt')
+from nltk.tokenize import word_tokenize
 
-- nltk.download('averaged_perceptron_tagger')
-
-- nltk.download('stopwords')
-
-- nltk.download('wordnet')
-
-e. Run the notebook cells.
 
 **3. Dataset (mbti_1.rar)**
 Google Colab: Upload the dataset manually or link it from Google Drive.
@@ -77,6 +100,16 @@ Google Colab: Upload the dataset manually or link it from Google Drive.
 - XGBoost: Gradient boosting models
 - TensorFlow: For neural network models
 - Transformers: For fine-tuning pre-trained models
+- Gensim: For Word2Vec and GloVe embeddings
+- sentence-transformers: For advanced BERT sentence embeddings
+
+- Embeddings Used
+- 
+Word2Vec: Pre-trained word vectors for semantic understanding.
+
+GloVe: Global Vectors for word representation.
+
+Sentence Embeddings: A transformer-based model for sentence embeddings using sentence-transformers.
 
 **5. Run the Notebook**
 Launch Notebook and open the Openness_Personality_Trait_NS.ipynb file
@@ -116,5 +149,3 @@ Here is brief analysis of how to run the scripts or notebooks, including data pr
 
 These steps ensure that the data is properly prepared, features are extracted, and appropriate models are trained and evaluated.
 
-**Results:**
-The highest performance was achieved using **Bidirectional LSTM (Bi-LSTM)** with **advanced sentence embeddings**, which predicted the Openness personality trait with an accuracy of **90.52%**. This demonstrates the effectiveness of deep learning models combined with advanced embeddings in capturing nuanced language features for personality trait prediction.
