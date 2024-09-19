@@ -38,6 +38,7 @@ Recently, its use/validity has come into question because of unreliability in ex
 First, clone this repository to your local machine:
 
 git clone https://github.com/Anamt761/Personality-Code.git
+
 cd Personality-Code
 
 **2. Running on Google Colab**
