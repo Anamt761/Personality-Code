@@ -49,18 +49,18 @@ b. Upload the Openness_Personality_Trait_NS.ipynb notebook or use the Colab link
 
 c. Install the required dependencies by adding this to a code cell at the start:
 
-- !pip install numpy
-- !pip install spacy
-- !pip install tqdm
-- !pip install xgboost
-- !pip install nltk
-- !pip install emoji
-- !pip install scikit-learn
-- !pip install transformers
-- !pip install tensorflow
-- !pip install pandas
-- !pip install gensim
-- !pip install sentence-transformers
+- pip install numpy
+- pip install spacy
+- pip install tqdm
+- pip install xgboost
+- pip install nltk
+- pip install emoji
+- pip install scikit-learn
+- pip install transformers
+- pip install tensorflow
+- pip install pandas
+- pip install gensim
+- pip install sentence-transformers
 
 This command installs all the base libraries
   
