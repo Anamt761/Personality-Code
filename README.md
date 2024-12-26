@@ -64,6 +64,19 @@ c. Install the required dependencies by adding this to a code cell at the start:
 - pip install sentence-transformers
 
 This command installs all the base libraries
+
+** Versions of libraries**
+
+numpy==1.24.4
+pandas==1.5.3
+nltk==3.8.1
+scikit-learn==1.2.2
+matplotlib==3.7.1
+wordcloud==1.8.2.2
+xgboost==1.7.5
+tensorflow==2.13.0
+sentence-transformers==2.2.2
+spacy==3.5.2
   
 **3. Dataset (mbti_1.rar)**
 Google Colab: Upload the dataset manually or link it from Google Drive.
