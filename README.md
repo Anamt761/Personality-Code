@@ -1,4 +1,6 @@
 **Personality Trait Detection: Openness**
+
+
 **Cite the code:** [![DOI](https://zenodo.org/badge/841366349.svg)](https://doi.org/10.5281/zenodo.13853274)
 
 **Overview**
